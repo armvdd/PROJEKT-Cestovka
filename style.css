@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  margin: 36px 0 10px 0;
+}
+
+.menu {
+  font-size: 18px;
+}
+
+.menu__tab {
+  display: inline-block;
+}
+
+.menu__a {
+  display: block;
+  text-decoration: none;
+  color: #f03000;
+  padding: 21px 20px;
+}
+.menu__a:hover {
+  background-color: #f03000;
+  color: #ffffff;
+}
+
+.nabidka {
+  margin: 10px 20px;
+}
+
+.main__nabidka-frst {
+  min-height: 240px;
+  width: 440px;
+  background-image: url(images/palmy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.cena {
+  width: 110px;
+  height: 44px;
+  padding: 10px 11px;
+  background-color: #f03000;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.main__nabidka-frst__cena {
+  margin-bottom: 80px;
+}
+
+.header1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.popis {
+  font-size: 16px;
+}
+
+.main__nabidka-scnd {
+  min-height: 150px;
+  width: 440px;
+  margin: 20px 0;
+  background-image: url(images/jezero2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.main__nabidka-scnd__cena {
+  margin-bottom: 37px;
+}
+
+.header2 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.main__nabidka-thrd {
+  min-height: 150px;
+  width: 440px;
+  background-image: url(images/nakole.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.main__nabidka-thrd__cena {
+  margin-bottom: 37px;
+}
+
+.sluzby {
+  margin: 29px 20px 40px 20px;
+}
+
+.card {
+  padding: 20px;
+  width: 440px;
+  height: 118px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+
+.podpora-img, .letiste-img, .svet-img, .bezpeci-img {
+  margin-right: 28px;
+  flex: 1 1 40px;
+}
+
+.podpora-img, .letiste-img {
+  width: 40px;
+}
+
+.podpora-text, .letiste-text, .svet-text, .bezpeci-text {
+  text-align: left;
+  flex: 1 1 80%;
+}
+
+.podpora__h3, .letiste__h3, .svet__h3, .bezpeci__h3 {
+  color: #f03000;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.popis-sluzby {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.letiste, .svet, .bezpeci {
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
