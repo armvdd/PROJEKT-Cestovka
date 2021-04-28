@@ -118,6 +118,9 @@ body {
   width: 440px;
   height: 118px;
   background-color: #f0f0f0;
+}
+
+.podpora, .letiste, .svet, .bezpeci {
   display: flex;
   align-items: center;
 }
@@ -150,4 +153,106 @@ body {
 
 .letiste, .svet, .bezpeci {
   margin-top: 10px;
+}
+
+.lastMinute {
+  text-align: left;
+}
+
+.lastMinute__nabidka-frst {
+  min-height: 240px;
+  width: 440px;
+  background-image: url(images/lodicka.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin-top: 23px;
+  color: #ffffff;
+}
+
+.lastMinute__nabidka-frst__h2 {
+  margin: 20px 0 24px 0;
+  font-size: 28px;
+}
+
+.lastMinute__nabidka-scnd {
+  min-height: 150px;
+  width: 440px;
+  background-image: url(images/podkova.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+.lastMinute__nabidka-scnd__cena {
+  margin-bottom: 37px;
+}
+
+.lastMinute__nabidka-thrd {
+  min-height: 150px;
+  width: 440px;
+  background-image: url(images/zatoka.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.lastMinute__nabidka-thrd__cena {
+  margin-bottom: 37px;
+}
+
+.novinky {
+  margin: 40px 20px;
+  text-align: left;
+}
+
+.novinky__card-frst {
+  margin: 23px 0 20px 0;
+  height: 157px;
+}
+
+.date {
+  color: #888888;
+  margin-bottom: 10px;
+}
+
+.novinky__card-frst__h3 {
+  font-size: 16px;
+  color: #f03000;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.novinky__card-scnd {
+  height: 178px;
+}
+
+.novinky__card-scnd__h3 {
+  font-size: 16px;
+  color: #f03000;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.novinky__card-thrd {
+  height: 176px;
+  margin: 20px 0 40px 0;
+}
+
+.novinky__card-thrd__h3 {
+  font-size: 16px;
+  color: #f03000;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.footer {
+  width: 440px;
+  padding: 20px;
+  margin: 0 20px 40px 20px;
+  background-color: #444444;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
